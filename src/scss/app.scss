@@ -1,0 +1,22 @@
+@import 'fonts';
+@import 'variables';
+@import 'libs/normalize';
+
+
+@import 'components/all';
+
+body {
+  font-family: 'Roboto';
+}
+
+
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: 900px;
+  box-shadow: 0 7px 7px 0 rgba($black, 0.5);
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}

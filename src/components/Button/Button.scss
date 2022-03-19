@@ -1,0 +1,55 @@
+@import '../../scss/variables';
+
+.button {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+
+  &:disabled {
+    border-color: $silverChalice;
+    background: $silverChalice;
+
+    &:hover {
+      border-color: $silverChalice;
+      background: $silverChalice;
+      color: $white;
+    }
+  }
+
+  &--primary {
+    border: 1px solid $blue;
+    color: $white;
+    background: $blue;
+
+    &:hover {
+      color: $blue;
+      background: transparent;
+    }
+  }
+
+  &--success {
+    border: 1px solid $emerald;
+    color: $white;
+    background: $emerald;
+
+    &:hover {
+      color: $emerald;
+      background: transparent;
+    }
+  }
+
+  &--link {
+    border: none;
+    padding: 0;
+    color: $blue;
+    background: transparent;
+
+    &:hover {
+      color: $malibu;
+    }
+  }
+}
